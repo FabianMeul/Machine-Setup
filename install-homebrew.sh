@@ -19,6 +19,7 @@ binaries=(
     git
     imagemagick
     libsass
+    mackup
     mongodb
     mysql
     npm
