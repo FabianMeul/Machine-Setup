@@ -5,24 +5,26 @@ echo "Installing Applications..."
 # Apps
 apps=(
     adobe-creative-cloud
-    atom
     alfred
+    atom
     caffeine
     cakebrew
     dash
+    firefox
     google-chrome
     google-chrome-canary
     google-drive
     iterm2
-    sequel-pro
     popkey
     robomongo
-    slack
+    sequel-pro
     sketch
     sketch-toolbox
-    viscocity
-    virtualbox
+    slack
+    spotify
     vagrant
+    virtualbox
+    viscocity
 )
 
 # Install apps to /Applications
