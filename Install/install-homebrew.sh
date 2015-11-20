@@ -11,6 +11,7 @@ brew update
 
 echo "Tapping some Brews..."
 brew tap homebrew/dupes
+brew tap homebrew/services
 brew tap homebrew/versions
 brew tap caskroom/versions
 
