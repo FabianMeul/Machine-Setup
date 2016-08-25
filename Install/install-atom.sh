@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # Install Atom packages ---------------------------------------------------------
 #
@@ -53,9 +55,10 @@ atomPackages=(
     linter-eslint       # Javascript
     linter-php          # PHP
     linter-scss-lint    # Sass
+    linter-shellcheck   # Shell scripts
     linter-tidy         # HTML
     linter-tslint       # Typescript
 )
 
 echo "Install Atom Packages..."
-apm install ${atomPackages[@]}
+apm install "${atomPackages[@]}"

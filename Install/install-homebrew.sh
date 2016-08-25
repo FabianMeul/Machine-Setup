@@ -1,7 +1,9 @@
+#!/bin/bash
+
 #
 # Install Homebrew ------------------------------------------------------------
 #
-if test ! $(which brew); then
+if test ! "$(which brew)"; then
   echo "Installing Homebrew..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
@@ -25,12 +27,13 @@ binaries=(
     mysql
     npm
     redis
+    shellcheck
     wget
     youtube-dl
 )
 
 echo "Installing Homebrew Binaries..."
-brew install ${binaries[@]}
+brew install "${binaries[@]}"
 
 
 # Clean up after we're done

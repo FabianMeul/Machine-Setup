@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # Install NPM packages --------------------------------------------------------
 #
@@ -15,4 +17,4 @@ nodePackages=(
     # phonegap
 )
 echo "Installing NPM Packages..."
-npm install ${nodePackages[@]} -g
+npm install "${nodePackages[@]}" -g

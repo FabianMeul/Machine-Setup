@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # Install Cask applications----------------------------------------------------
 #
@@ -71,4 +73,4 @@ apps=(
 
 # Install apps to /Applications
 echo "Installing Applications..."
-brew cask install ${apps[@]}
+brew cask install "${apps[@]}"
