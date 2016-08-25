@@ -51,6 +51,7 @@ atomPackages=(
     # Linting
     linter
     linter-eslint       # Javascript
+    linter-php          # PHP
     linter-scss-lint    # Sass
     linter-tidy         # HTML
     linter-tslint       # Typescript
