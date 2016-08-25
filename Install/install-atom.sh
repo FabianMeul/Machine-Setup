@@ -4,6 +4,7 @@
 atomPackages=(
     # UI
     atom-material-syntax
+    firewatch-syntax
     atom-material-ui
 
     file-icons
@@ -16,15 +17,16 @@ atomPackages=(
 
     # Editor
     color-picker
-    editorconfig
-    emmet
+    editorconfig       # EditorConfig support
     project-manager
     remote-edit
     sync-settings
 
+
     # Git
     git-blame
     git-plus
+
 
     # Text tools
     atom-alignment
@@ -37,10 +39,21 @@ atomPackages=(
     trailing-spaces
 
 
+    # Added language support
+    angularjs           # AngularJs
+    atom-typescript     # TypeScript
+    language-html-swig  # Swig
+    language-nunjucks   # Nunjucks
+    tabular             # CSV, TSV
+    emmet               # Emmet
+
+
     # Linting
     linter
-    linter-eslint
-    linter-scss-lint
+    linter-eslint       # Javascript
+    linter-scss-lint    # Sass
+    linter-tidy         # HTML
+    linter-tslint       # Typescript
 )
 
 echo "Install Atom Packages..."

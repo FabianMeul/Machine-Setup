@@ -4,30 +4,71 @@
 echo "Installing Applications..."
 # Apps
 apps=(
-    adobe-creative-cloud
-    alfred
-    atom
-    caffeine
-    cakebrew
-    dash
-    firefox
-    google-chrome
-    google-chrome-canary
-    google-drive
-    iterm2
-    popkey
-    robomongo
-    sequel-pro
-    sketch
-    sketch-toolbox
-    slack
-    spotify
-    vagrant
-    virtualbox
-    viscocity
+
+    # Development
+    # ----------------------------------------------------------------------- /
+
+        # IDE
+        atom
+        iterm2
+
+        # Virtualization
+        vagrant
+        vagrant-manager
+        virtualbox
+
+        # Database Management
+        robomongo
+        sequel-pro
+
+
+    # Media
+    # ----------------------------------------------------------------------- /
+
+        # Music
+        google-play-music-desktop-player
+        soundnode
+        spotify
+
+        # Video
+        vlc
+        mplayerx
+
+
+    # Various
+    # ----------------------------------------------------------------------- /
+
+        # Productivity
+        alfred
+        appcleaner
+
+        # Design
+        adobe-creative-cloud
+        sketch
+        sketch-toolbox
+
+        # Browsers
+        firefox
+        google-chrome
+        google-chrome-canary
+
+        # Connectivity
+        slack
+        viscocity
+
+        # Cloud Storage
+        google-drive
+        dropbox
+
+        # Tools
+        caffeine
+        cakebrew
+        dash
+        flux
+        popkey
+        transmission
 )
 
 # Install apps to /Applications
-# Default is: /Users/$user/Applications
 echo "Installing Applications..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
