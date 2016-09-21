@@ -9,6 +9,10 @@ echo "Preparing your device for web-development..."
 echo "Creating ~/Sites directory..."
 mkdir ~/Sites
 
+echo "Installing Apache..."
+brew tap homebrew/dupes
+brew install -v homebrew/apache/httpd24 --with-brewed-openssl
+
 echo "Installing PHP..."
 brew tap homebrew/homebrew-php
 

@@ -19,17 +19,24 @@ brew tap caskroom/versions
 
 binaries=(
     caskroom/cask/brew-cask
+    mackup
+    shellcheck
+    tidy-html5
+
+    # Tools
+    wget
+    youtube-dl
+
+    # Development
     git
     imagemagick
     libsass
-    mackup
-    mongodb
-    mysql
     npm
     redis
-    shellcheck
-    wget
-    youtube-dl
+
+    # Database
+    mongodb
+    mysql
 )
 
 echo "Installing Homebrew Binaries..."
